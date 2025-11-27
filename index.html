@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehzaf Restaurant</title>
+    <style>
+        header{
+            text-align: center;
+            margin: 10px;
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(82, 82, 129);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .icon{
+        width: 500px;
+        height: 15px;
+        }
+        .icon h2{
+        color: #72d41c96;
+        font-size: 35px ;
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        padding-left: 20px;
+        padding-top: 10px;
+        height: 15px;
+        }
+        .container{
+         width: 100%;   
+        background-color: brown;
+        height: 400px;
+        margin-top: 80px;
+        text-align: center;
+        color: black;
+        padding-top: 10px
+        }
+        .container p{
+            padding: 2% 10%;
+        }
+        .container ul{
+            display: flex;
+            justify-content: center;
+            gap: 1%;
+
+        }
+        .container ul li{
+            list-style: none;
+        }
+        .container ul li img{
+            width: 100%;
+            height: 100%;
+        }
+        .cont{
+        width: 100%;   
+         text-align: center;
+        color: black;
+         background-color: blueviolet;
+         height: 400px;
+        padding-top: 10px
+        }
+        .ainer{
+         width: 100%;   
+       text-align: center;
+        color: black;
+        background-color:#f7f39f;
+        height: 300px;
+        padding-top: 10px
+        }
+        .lists{
+             width: 100%;   
+            background-color: bisque;
+            height: 200px;
+        text-align: center;
+        color: black;
+        padding-top: 10px
+        }
+        .links{
+         width: 100%;   
+        text-align: center;
+        color: black;
+        background-color:olivedrab;
+        height: 100px;
+        padding-top: 10px
+        }
+        .menu{
+            float: left;
+            width: 25%;
+            height: 12%;
+        }
+        .menu ul{
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 180%;
+            width: 50%;
+        }
+        .menu ul li{
+            margin-top: 10px;
+            margin-left: 55%;
+            list-style: none;
+            font-size: 14px;
+        }
+        .menu ul li a{
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bold;
+            transition: 0.4s ease-in-out;
+            text-decoration: none;
+        }
+    ul li a:hover{
+        color: orchid;
+    }
+
+    table{
+        border: 1px solid black;
+        width: 50%;
+        height: 30%;
+        align-items: center;
+        padding: 2px;
+        margin: 50px 160px;
+        border-collapse: collapse;
+    }
+    table th,td{
+        border: 1px solid black;
+        padding: 8px;
+        margin: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>WelCome to My Food Website</header>
+    <div class="icon">
+    <h2>Rehzaf's Food</h2></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#Button">Menu</a></li>
+            <li><a href="#Table">Table</a></li>
+            <li><a href="#Navgation">Links</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#links">Contact </a></li>
+        </ul>
+    </div>
+    <div id="Button" class="container"> <h2>Menu</h2>
+        <p>
+            Our food is fresh, delicious, and prepaed with high quality ingredients. We make sure every dish is cooked with care, perfect taste, and amazing flavor.Your satisfaction is our first priority, and we always serve the best food for you.
+        </p>
+        <ul>
+    <li><a href="burger.jpg"><img src="burger.jpg" alt="burger"></a></li>
+    <li><a href="biryani.jpg"><img src="biryani.jpg" alt="Biryani"></a></li>
+    <li><a href="code.jpg"><img src="code.jpg" alt="coke"></a></li>
+    <li><a href="karahi.jpg"><img src="karahi.jpg" alt="kahari"></a></li><br>
+    <li><a href="shawama.jpg"><img src="shawama.jpg" alt="Shawarma"></a></li>
+
+   </ul> </div>
+   <div id="Table" class="cont"> <h2>Table</h2>
+    <table>
+        <caption><b>Food Details</b></caption>
+    <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Biryani</td>
+        <td>Rice</td>
+        <td>1 Plate</td>
+        <td>250</td>
+    </tr>
+    <tr>
+        <td>Zinger Burger</td>
+        <td>Fast Food</td>
+        <td>1 Burger </td>
+        <td>350</td>
+    </tr>
+    <tr>
+        <td>Chicken Pizza</td>
+        <td>Italian</td>
+        <td>Large</td>
+        <td>1200</td>
+    </tr>
+    <tr>
+        <td>Shawarma</td>
+        <td>Arabic</td>
+        <td>1 Roll</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>Cold Drink</td>
+        <td>Beverages</td>
+        <td>1</td>
+        <td>60</td>
+    </tr>
+    </table>
+    </div>
+   <div id="Navgation" class="ainer"> <h2>Links</h2>
+      <ul> 
+        <li><a href="#">Home Page</a></li> 
+       <li><a href="#">Food Menu</a></li> 
+       <li><a href="#">Price List</a></li> 
+       <li><a href="#">Order Now</a></li> 
+       <li><a href="#"> Contact Us</a></li>
+       </ul>
+    </div>
+   <div id="lists" class="lists"> <h2>Lists</h2>
+    <ul>
+        <li>Biryani</li>
+        <li>Burger</li>
+        <li>Pizza</li>
+        <li>Shawarma</li>
+        <li>Drinks</li>
+    </ul>
+    </div>
+   <div id="links" class="links"><h2>Contact Us</h2></div>
+
+</body>
+</html>
